@@ -1,5 +1,5 @@
 //type annotation
-let message: string = "Hi Typescript";
+let message1: string = "Hi Typescript";
 
 console.log(message);
 
