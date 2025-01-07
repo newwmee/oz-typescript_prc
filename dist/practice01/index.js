@@ -1,5 +1,7 @@
 "use strict";
 function hello(name) {
     console.log(`Hello ${name}`);
+    return name;
 }
-hello("Typescript");
+let hi = hello("Typescript");
+console.log(hi);

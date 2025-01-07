@@ -1,5 +1,7 @@
-function hello(name: string) {
+function hello(name: string): string {
   console.log(`Hello ${name}`);
+  return name;
 }
 
-hello("Typescript");
+let hi = hello("Typescript");
+console.log(hi);
